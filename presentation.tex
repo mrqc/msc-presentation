@@ -1,0 +1,133 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+\title[]{Forensic Analysis of Web Data}
+\author{Erhard Dinhobl}
+\institute{Vienna University of Technology - Information and Software Engineering Group}
+\date{5.10.2016}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Uncomment these lines for an automatically generated outline.
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+\begin{frame}{Introduction}
+
+\begin{itemize}
+  \item using collected data in surveys
+  \item influence to known investigative models
+  \item appropriate investigation model
+  \item digital preservation
+  \item legal issues
+  \item deep web crawling
+  \item format of data
+  \item designing a deep web crawler
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Table of contents}
+
+\begin{itemize}
+  \item base investigation model
+  \item new investigation model
+  \item "reduct" and "preserve" steps in detail
+  \item underlying methodology (deep web crawler)
+  \item usage
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{The Investigation S(RP)AP}
+\begin{itemize}
+  \item secure
+  \item \textbf{reduct}
+  \item \textbf{preserve}
+  \item analyze
+  \item present
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The Process}
+
+\begin{figure}
+\includegraphics[scale=0.3]{figure-1.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{The Process (2)}
+
+\begin{itemize}
+  \item Where was the evidence stored?
+  \item Who had obtained the evidence?
+  \item What has been done to the evidence?
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Deep Web Crawler}
+
+Challenges:
+
+\begin{itemize}
+  \item the use of AJAX technology in web pages
+  \item the simulation of user interaction with HTML elements (e.g. forms)
+  \item the use of Captchas in web pages
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Architecture}
+
+\begin{figure}
+\includegraphics[scale=0.3]{crawler-deepweb-componentdiagram.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Usage}
+
+\begin{itemize}
+  \item investigative
+  \begin{itemize}
+    \item collecting bitcoin addresses (clear and dark net)
+    \item saving evidence files from the web (also via Tor)
+  \end{itemize}
+
+  \item non-investigative
+  \begin{itemize}
+    \item collecting event data
+    \item ... person data (incl. friendship)
+    \item ... news
+    \item ... locations
+    \item ... bitcoin addresses and names
+    \item many others still done
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\end{document}
