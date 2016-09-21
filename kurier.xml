@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<cratalis start-url="http://kurier.at" name="Kurier Crawling for comparsing purposes with normal crawler" start-action-sequence="1">
+  <action-sequence id="1">
+    <action type="StartAction" id="1" comment="start every link" save="true" action-sequence-id="3">.//a[@href and not(starts-with(@href, "#"))]</action>
+  </action-sequence>
+  <action-sequence id="3">
+    <action type="SaveAction" id="3" comment="just save" save="true"/>
+  </action-sequence>
+</cratalis>
+
+

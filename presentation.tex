@@ -1,4 +1,5 @@
 \documentclass{beamer}
+\usepackage{listings}
 %
 % Choose how your presentation looks.
 %
@@ -68,6 +69,9 @@
   \item analyze
   \item present
 \end{itemize}
+
+Best for online crime investigation!
+
 \end{frame}
 
 \begin{frame}{The Process}
@@ -107,6 +111,82 @@ Challenges:
 \end{figure}
 
 \end{frame}
+
+
+\defverbatim[colored]\lst{%
+\begin{lstlisting}[tabsize=8,basicstyle=\ttfamily]
+
+<?xml version="1.0"?>
+<cratalis start-url="http://kurier.at" 
+    name="Kurier Crawling" 
+    start-action-sequence="1">
+  <action-sequence id="1">
+    <action type="StartAction" id="1" 
+        comment="start every link" save="true" 
+	action-sequence-id="3">
+	  .//a[@href and 
+	  not(starts-with(@href, "#"))]
+    </action>
+  </action-sequence>
+  <action-sequence id="3">
+    <action type="SaveAction" id="3" 
+        comment="just save" save="true"/>
+  </action-sequence>
+</cratalis>
+
+\end{lstlisting}
+}
+
+\begin{frame}{Simple Example}
+\lst
+\end{frame}
+
+
+\defverbatim[colored]\lst{%
+\begin{lstlisting}[tabsize=8,basicstyle=\tiny]
+
+<?xml version="1.0"?>
+<cratalis start-url="http://www.studivz.de" name="StudiVZ" start-action-sequence="1" 
+      deml-file="studivz/studivz.xml">
+  <action-sequence id="1">
+    <action type="JavaScript" id="1" comment="filling out the login form" 
+          save="true" save-file="studivz/login-screen.html">
+        var usernameInputs = document.evaluate(".//*[@id='Login_email']", ...);
+        var usernameTextBox = usernameInputs.iterateNext();
+        usernameTextBox.value = "forensicanalysis@ymail.com";
+        var passwordInputs = document.evaluate(".//*[@id='Login_password']", ...);
+        var passwordTextBox = passwordInputs.iterateNext();
+        passwordTextBox.value = "gustav";
+    </action>
+    <action type="StartAction" id="2" save-file="studivz/home.html"....></action>
+  </action-sequence>
+  <action-sequence id="2">
+    <action type="StartAction" id="3" save-file="studivz/inbox.html"></action>
+  </action-sequence>
+  <action-sequence id="3">
+    <action type="JavaScript" id="4" comment="start other action to overview" save="false">
+        var msgLinkList = document.evaluate(
+	      ".//div[contains(@class,'from-subject')]/div[contains(@class,'subject')]/a", ...);
+        var msgLink;
+        var count = 0;
+        while(msgLink = msgLinkList.iterateNext()) {
+            count++;
+            msgLink.onclick.apply(msgLink);
+            savePage('studivz/msg' + count + '.html');
+        }
+    </action>
+  </action-sequence>
+</cratalis>
+
+\end{lstlisting}
+}
+
+\begin{frame}{More complex example}
+\lst
+\end{frame}
+
+
+
 
 \begin{frame}{Usage}
 
