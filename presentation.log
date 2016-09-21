@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.23)  21 SEP 2016 08:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.23)  21 SEP 2016 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1044,13 +1044,8 @@ Overfull \hbox (2.5423pt too wide) in paragraph at lines 161--162
  []
 
 
-Overfull \hbox (40.79318pt too wide) in paragraph at lines 167--168
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (59.91862pt too wide) in paragraph at lines 169--170
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (6.36739pt too wide) in paragraph at lines 167--168
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [10
@@ -1067,11 +1062,11 @@ Overfull \hbox (59.91862pt too wide) in paragraph at lines 169--170
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1082,12 +1077,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
  18808 strings out of 493029
  347878 string characters out of 6136234
- 517540 words of memory out of 5000000
+ 516540 words of memory out of 5000000
  21891 multiletter control sequences out of 15000+600000
  10549 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1101,7 +1096,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (11 pages, 246858 bytes).
+Output written on presentation.pdf (11 pages, 246811 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream

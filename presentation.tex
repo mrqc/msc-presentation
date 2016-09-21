@@ -164,9 +164,9 @@ Challenges:
     <action type="StartAction" id="3" save-file="studivz/inbox.html"></action>
   </action-sequence>
   <action-sequence id="3">
-    <action type="JavaScript" id="4" comment="start other action to overview" save="false">
+    <action type="JavaScript" id="4" comment="start other action to overview" ...>
         var msgLinkList = document.evaluate(
-	      ".//div[contains(@class,'from-subject')]/div[contains(@class,'subject')]/a", ...);
+	      ".//div[contains(@class,'from-subject')]/.../a", ...);
         var msgLink;
         var count = 0;
         while(msgLink = msgLinkList.iterateNext()) {
@@ -185,9 +185,6 @@ Challenges:
 \lst
 \end{frame}
 
-
-
-
 \begin{frame}{Usage}
 
 \begin{itemize}
@@ -200,7 +197,7 @@ Challenges:
   \item non-investigative
   \begin{itemize}
     \item collecting event data
-    \item ... person data (incl. friendship)
+    \item ... person data (incl. relations)
     \item ... news
     \item ... locations
     \item ... bitcoin addresses and names
