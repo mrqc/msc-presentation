@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.23)  21 SEP 2016 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.23)  21 SEP 2016 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,70 +987,78 @@ Package pdftex.def Info: figure-1.png used on input line 83.
 ] [7
 
 ]
-<crawler-deepweb-componentdiagram.png, id=58, 736.7525pt x 374.39874pt>
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 123
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 123.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textsection' on input line 123.
+
+[8
+
+] [9
+
+] [10
+
+]
+<crawler-deepweb-componentdiagram.png, id=75, 1256.695pt x 659.46375pt>
 File: crawler-deepweb-componentdiagram.png Graphic file (type png)
 
 <use crawler-deepweb-componentdiagram.png>
 Package pdftex.def Info: crawler-deepweb-componentdiagram.png used on input lin
-e 113.
-(pdftex.def)             Requested size: 221.02745pt x 112.32048pt.
- [8
+e 157.
+(pdftex.def)             Requested size: 251.33455pt x 131.89041pt.
+ [11
 
  <./crawler-deepweb-componentdiagram.png>]
 \@verb\lst=\box57
 
-Overfull \hbox (10.04106pt too wide) in paragraph at lines 125--126
+Overfull \hbox (10.04106pt too wide) in paragraph at lines 169--170
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \vbox (6.52698pt too high) detected at line 142
+Overfull \vbox (6.52698pt too high) detected at line 186
  []
 
-[9
+[12
 
 ]
 \@verb\lst=\box58
-LaTeX Font Info:    Try loading font information for OML+cmss on input line 148
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 192
 .
-LaTeX Font Info:    No file OMLcmss.fd. on input line 148.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 192.
 
 
 LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 148.
+(Font)              for symbol `textless' on input line 192.
 
 
-Overfull \hbox (14.01756pt too wide) in paragraph at lines 149--150
+Overfull \hbox (14.01756pt too wide) in paragraph at lines 193--194
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 154
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 154.
 
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 154.
-
-
-Overfull \hbox (6.36739pt too wide) in paragraph at lines 157--158
+Overfull \hbox (6.36739pt too wide) in paragraph at lines 201--202
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (2.5423pt too wide) in paragraph at lines 161--162
+Overfull \hbox (2.5423pt too wide) in paragraph at lines 205--206
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.36739pt too wide) in paragraph at lines 167--168
+Overfull \hbox (6.36739pt too wide) in paragraph at lines 211--212
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[10
+[13
 
-] [11
+] [14
 
 ]
 \tf@nav=\write6
@@ -1062,11 +1070,11 @@ Overfull \hbox (6.36739pt too wide) in paragraph at lines 167--168
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1077,29 +1085,30 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 18808 strings out of 493029
- 347878 string characters out of 6136234
+ 18823 strings out of 493029
+ 348034 string characters out of 6136234
  516540 words of memory out of 5000000
- 21891 multiletter control sequences out of 15000+600000
- 10549 words of font info for 39 fonts, out of 8000000 for 9000
+ 21900 multiletter control sequences out of 15000+600000
+ 10806 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,55p,413b,1244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,55p,413b,1241s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (11 pages, 246811 bytes).
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msam7.pfb>
+Output written on presentation.pdf (14 pages, 289532 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

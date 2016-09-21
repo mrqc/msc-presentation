@@ -54,7 +54,7 @@
 \begin{itemize}
   \item base investigation model
   \item new investigation model
-  \item "reduct" and "preserve" steps in detail
+  \item "reduct", "preserve" and "analyze" steps in detail
   \item underlying methodology (deep web crawler)
   \item usage
 \end{itemize}
@@ -92,6 +92,50 @@ Best for online crime investigation!
 
 \end{frame}
 
+\begin{frame}{"reduct"}
+
+\begin{itemize}
+  \item reduce amount of data to crawl (also time)
+  \item crawling websites: XPath
+  \item simulate user navigation and interaction
+  \item defined by investigation team
+  \item be aware: unimportant data maybe later important
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{"preserve"}
+
+\begin{itemize}
+  \item preservation of evidences up to 60 years (StPO \S60)
+  \item important due to file formats (determined with DROID)
+  \item for web crawling WARC file format (open format)
+  \item for immediate investigation: normale files
+  \item the index: DEML file
+  \begin{itemize}
+    \item by National Centre for Forensic Science
+    \item Digital Evidence Markup Language
+    \item compatible with Global Justice XML Data Model (GJXDM)
+    \item File (inheritance: DigitalArtefact, Allocated) important for online investigations
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{"analyze"}
+
+\begin{itemize}
+  \item file analysis: sleuthkit, Autopsy, PRONOM (with DROID)
+  \item own tools and usage of graph-expression (Google)
+  \item timeline and correlation reconstruction:
+  \begin{itemize}
+  	\item model from the National Centre for Forensic Science
+	\item Application, Content, Principal, System
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
 \begin{frame}{The Deep Web Crawler}
 
 Challenges:
@@ -107,7 +151,7 @@ Challenges:
 \begin{frame}{The Architecture}
 
 \begin{figure}
-\includegraphics[scale=0.3]{crawler-deepweb-componentdiagram.png}
+\includegraphics[scale=0.2]{crawler-deepweb-componentdiagram.png}
 \end{figure}
 
 \end{frame}
